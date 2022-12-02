@@ -5,6 +5,6 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
 import com.autentia.rest.alumnos.domain.Student;
 
-@RepositoryRestResource(collectionResourceRel = "students", path = "students")
+@RepositoryRestResource(collectionResourceRel = "students", path = "student")
 public interface PostgresRestRepository extends CrudRepository<Student, String>{
 }
